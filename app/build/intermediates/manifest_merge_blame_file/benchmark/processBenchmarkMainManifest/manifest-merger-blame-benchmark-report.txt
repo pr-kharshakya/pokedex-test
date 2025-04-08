@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Designed and developed by 2022 skydoves (Jaewoong Eum)
+4
+5    Licensed under the Apache License, Version 2.0 (the "License");
+6    you may not use this file except in compliance with the License.
+7    You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11    Unless required by applicable law or agreed to in writing, software
+12    distributed under the License is distributed on an "AS IS" BASIS,
+13    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14    See the License for the specific language governing permissions and
+15    limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.skydoves.pokedex"
+19    android:versionCode="10"
+20    android:versionName="1.1.2" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="23"
+24        android:targetSdkVersion="35" />
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:20:3-65
+26-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:20:20-62
+27
+28    <permission
+28-->[androidx.core:core:1.13.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/46a27cf2d8c3124cfe86e97093946e54/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+29        android:name="com.skydoves.pokedex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.13.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/46a27cf2d8c3124cfe86e97093946e54/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.13.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/46a27cf2d8c3124cfe86e97093946e54/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.skydoves.pokedex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.13.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/46a27cf2d8c3124cfe86e97093946e54/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.13.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/46a27cf2d8c3124cfe86e97093946e54/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:22:3-61:17
+35        android:name="com.skydoves.pokedex.PokedexApp"
+35-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:23:5-31
+36        android:allowBackup="false"
+36-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:24:5-32
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.13.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/46a27cf2d8c3124cfe86e97093946e54/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:25:5-39
+41        android:label="@string/app_name"
+41-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:26:5-37
+42        android:supportsRtl="true"
+42-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:27:5-31
+43        android:theme="@style/AppTheme" >
+43-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:28:5-36
+44        <activity
+44-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:31:5-40:16
+45            android:name="com.skydoves.pokedex.ui.main.MainActivity"
+45-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:32:7-43
+46            android:exported="true"
+46-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:33:7-30
+47            android:launchMode="singleTop" >
+47-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:34:7-37
+48            <intent-filter>
+48-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:35:7-39:23
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:36:9-61
+49-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:36:17-58
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:38:9-69
+51-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:38:19-66
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:42:5-44:40
+55            android:name="com.skydoves.pokedex.ui.details.DetailActivity"
+55-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:43:7-48
+56            android:launchMode="singleTop" />
+56-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:44:7-37
+57
+58        <provider
+58-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:46:5-55:16
+59            android:name="androidx.startup.InitializationProvider"
+59-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:47:7-61
+60            android:authorities="com.skydoves.pokedex.androidx-startup"
+60-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:48:7-66
+61            android:exported="false" >
+61-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:49:7-31
+62            <meta-data
+62-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:52:7-54:44
+63                android:name="com.skydoves.pokedex.initializer.TimberInitializer"
+63-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:53:9-74
+64                android:value="androidx.startup" />
+64-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:54:9-41
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/1951ab6525732b7ac675dbafbc0df885/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/1951ab6525732b7ac675dbafbc0df885/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/1951ab6525732b7ac675dbafbc0df885/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/121a60b620729be97da0c868dc45c7e6/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/121a60b620729be97da0c868dc45c7e6/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/121a60b620729be97da0c868dc45c7e6/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <profileable android:shell="true" />
+76-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:57:5-59:29
+76-->/Users/siffatjotsingh/StudioProjects/Pokedex/app/src/main/AndroidManifest.xml:58:7-27
+77
+78        <provider
+78-->[com.github.skydoves:bindables:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/27586582238ac730d89df1bd6ff8b4a2/transformed/jetified-bindables-1.2.0/AndroidManifest.xml:8:9-11:40
+79            android:name="com.skydoves.bindables.BindingInitProvider"
+79-->[com.github.skydoves:bindables:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/27586582238ac730d89df1bd6ff8b4a2/transformed/jetified-bindables-1.2.0/AndroidManifest.xml:9:13-70
+80            android:authorities="com.skydoves.pokedex.bindinginitprovider"
+80-->[com.github.skydoves:bindables:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/27586582238ac730d89df1bd6ff8b4a2/transformed/jetified-bindables-1.2.0/AndroidManifest.xml:10:13-71
+81            android:exported="false" />
+81-->[com.github.skydoves:bindables:1.2.0] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/27586582238ac730d89df1bd6ff8b4a2/transformed/jetified-bindables-1.2.0/AndroidManifest.xml:11:13-37
+82
+83        <service
+83-->[androidx.room:room-runtime:2.6.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/4eeeb7782e3d2692822ecd05a92d06cd/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+84            android:name="androidx.room.MultiInstanceInvalidationService"
+84-->[androidx.room:room-runtime:2.6.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/4eeeb7782e3d2692822ecd05a92d06cd/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+85            android:directBootAware="true"
+85-->[androidx.room:room-runtime:2.6.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/4eeeb7782e3d2692822ecd05a92d06cd/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+86            android:exported="false" />
+86-->[androidx.room:room-runtime:2.6.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/4eeeb7782e3d2692822ecd05a92d06cd/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/siffatjotsingh/.gradle/caches/8.13/transforms/edc0d6eac33dbc93867a5d4aef647e97/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

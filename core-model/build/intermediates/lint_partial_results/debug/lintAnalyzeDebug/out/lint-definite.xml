@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.2" type="incidents">
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:core-model*debug*MAIN*sourceProvider*0*javaDir*2}/com/skydoves/pokedex/core/model/PokemonInfo.kt"
+            line="39"
+            column="31"
+            startOffset="1384"
+            endLine="39"
+            endColumn="57"
+            endOffset="1410"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:core-model*debug*MAIN*sourceProvider*0*javaDir*2}/com/skydoves/pokedex/core/model/PokemonInfo.kt"
+            line="40"
+            column="35"
+            startOffset="1445"
+            endLine="40"
+            endColumn="82"
+            endOffset="1492"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:core-model*debug*MAIN*sourceProvider*0*javaDir*2}/com/skydoves/pokedex/core/model/PokemonInfo.kt"
+            line="41"
+            column="35"
+            startOffset="1527"
+            endLine="41"
+            endColumn="81"
+            endOffset="1573"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,33 @@
+-keepnames class com.skydoves.pokedex.core.model.Pokemon
+-if class com.skydoves.pokedex.core.model.Pokemon
+-keep class com.skydoves.pokedex.core.model.PokemonJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.skydoves.pokedex.core.model.Pokemon
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-keepclassmembers class com.skydoves.pokedex.core.model.Pokemon {
+    public synthetic <init>(int,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}
+
+-keepnames class com.skydoves.pokedex.core.model.PokemonInfo$Type
+-if class com.skydoves.pokedex.core.model.PokemonInfo$Type
+-keep class com.skydoves.pokedex.core.model.PokemonInfo_TypeJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-keepnames class com.skydoves.pokedex.core.model.PokemonInfo$TypeResponse
+-if class com.skydoves.pokedex.core.model.PokemonInfo$TypeResponse
+-keep class com.skydoves.pokedex.core.model.PokemonInfo_TypeResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-keepnames class com.skydoves.pokedex.core.model.PokemonInfo
+-if class com.skydoves.pokedex.core.model.PokemonInfo
+-keep class com.skydoves.pokedex.core.model.PokemonInfoJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.skydoves.pokedex.core.model.PokemonInfo
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-keepclassmembers class com.skydoves.pokedex.core.model.PokemonInfo {
+    public synthetic <init>(int,java.lang.String,int,int,int,java.util.List,int,int,int,int,int,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}

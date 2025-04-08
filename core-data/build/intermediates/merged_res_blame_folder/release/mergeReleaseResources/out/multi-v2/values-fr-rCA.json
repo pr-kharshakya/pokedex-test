@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.skydoves.pokedex.core.data.core-data-release-17:/values-fr-rCA/values-fr-rCA.xml",
+            "map": [
+                {
+                    "source": "/Users/siffatjotsingh/.gradle/caches/8.13/transforms/23a240eca9466be62378e14dc5aed8b7/transformed/core-1.8.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.skydoves.pokedex.core.data.core-data-mergeReleaseResources-15:/values-fr-rCA/values-fr-rCA.xml",
+            "map": [
+                {
+                    "source": "/Users/siffatjotsingh/.gradle/caches/8.13/transforms/23a240eca9466be62378e14dc5aed8b7/transformed/core-1.8.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

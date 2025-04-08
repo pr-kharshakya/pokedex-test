@@ -1,0 +1,6 @@
+com.skydoves.pokedex.core.model.core-model-resValues-0 /Users/siffatjotsingh/StudioProjects/Pokedex/core-model/build/generated/res/resValues/release
+com.skydoves.pokedex.core.model.core-model-mergeReleaseResources-1 /Users/siffatjotsingh/StudioProjects/Pokedex/core-model/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.skydoves.pokedex.core.model.core-model-mergeReleaseResources-2 /Users/siffatjotsingh/StudioProjects/Pokedex/core-model/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.skydoves.pokedex.core.model.core-model-release-3 /Users/siffatjotsingh/StudioProjects/Pokedex/core-model/build/intermediates/merged_res/release/mergeReleaseResources
+com.skydoves.pokedex.core.model.core-model-main-4 /Users/siffatjotsingh/StudioProjects/Pokedex/core-model/src/main/res
+com.skydoves.pokedex.core.model.core-model-release-5 /Users/siffatjotsingh/StudioProjects/Pokedex/core-model/src/release/res

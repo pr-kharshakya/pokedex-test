@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.skydoves.pokedex.core.network.ApiResponseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T09:36:21.799Z" hostname="Siffatjots-MacBook-Pro.local" time="0.178">
+  <properties/>
+  <testcase name="success" classname="com.skydoves.pokedex.core.network.ApiResponseTest" time="0.178"/>
+  <testcase name="exception" classname="com.skydoves.pokedex.core.network.ApiResponseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

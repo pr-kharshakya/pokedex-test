@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.skydoves.pokedex.core.data.DetailRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-04T09:36:23.918Z" hostname="Siffatjots-MacBook-Pro.local" time="0.698">
+  <properties/>
+  <testcase name="fetchPokemonInfoFromDatabaseTest" classname="com.skydoves.pokedex.core.data.DetailRepositoryTest" time="0.694"/>
+  <testcase name="fetchPokemonInfoFromNetworkTest" classname="com.skydoves.pokedex.core.data.DetailRepositoryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

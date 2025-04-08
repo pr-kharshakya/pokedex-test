@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.2" type="incidents">
+
+    <incident
+        id="VisibleForTests"
+        severity="warning"
+        message="This class should only be accessed from tests or within private scope">
+        <location
+            file="${:core-data*debug*MAIN*sourceProvider*0*javaDir*2}/com/skydoves/pokedex/core/di/DataModule.kt"
+            line="33"
+            column="47"
+            startOffset="1160"
+            endLine="33"
+            endColumn="65"
+            endOffset="1178"/>
+    </incident>
+
+    <incident
+        id="VisibleForTests"
+        severity="warning"
+        message="This class should only be accessed from tests or within private scope">
+        <location
+            file="${:core-data*debug*MAIN*sourceProvider*0*javaDir*2}/com/skydoves/pokedex/core/di/DataModule.kt"
+            line="36"
+            column="51"
+            startOffset="1256"
+            endLine="36"
+            endColumn="71"
+            endOffset="1276"/>
+    </incident>
+
+</incidents>

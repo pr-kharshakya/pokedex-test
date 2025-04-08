@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.skydoves.pokedex.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.skydoves.pokedex.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.skydoves.pokedex.app-mergeDebugResources-51:/layout/toolbar_home.xml",
+        "source": "com.skydoves.pokedex.app-main-54:/layout/toolbar_home.xml"
+    },
+    {
+        "merged": "com.skydoves.pokedex.app-mergeDebugResources-51:/layout/activity_detail.xml",
+        "source": "com.skydoves.pokedex.app-main-54:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.skydoves.pokedex.app-mergeDebugResources-51:/layout/item_pokemon.xml",
+        "source": "com.skydoves.pokedex.app-main-54:/layout/item_pokemon.xml"
+    }
+]

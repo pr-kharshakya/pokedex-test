@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.skydoves.pokedex.ui.main.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.background900"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="23"
+            column="10"
+            startOffset="914"
+            endLine="23"
+            endColumn="30"
+            endOffset="934"/>
+        <location id="R.drawable.ic_launcher_background"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_launcher_background.xml"
+            line="17"
+            column="1"
+            startOffset="666"
+            endLine="185"
+            endColumn="10"
+            endOffset="5638"/>
+        <location id="R.drawable.ic_launcher_foreground"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-v24/ic_launcher_foreground.xml"
+            line="17"
+            column="1"
+            startOffset="666"
+            endLine="46"
+            endColumn="10"
+            endOffset="2216"/>
+        <location id="R.style.CircleImageStyle"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="35"
+            column="10"
+            startOffset="1418"
+            endLine="35"
+            endColumn="33"
+            endOffset="1441"/>
+        <entry
+            name="model"
+            string="attr[selectableItemBackground(R)],color[colorPrimary(U),background(U),white(U),white_56(U),white_93(U),white_70(U),black(U),md_orange_100(U),md_blue_200(U),flying(U),md_green_200(U),background800(U),white_12(U),ic_launcher_background(U),colorPrimaryDark(U),colorAccent(U),background900(D),bug(U),dark(U),dragon(U),gray_21(U),electric(U),fairy(U),fire(U),ghost(U),ice(U),poison(U),psychic(U),rock(U),steel(U),water(U),fighting(U),grass(U),ground(U)],drawable[ic_arrow(U),ic_launcher_background(D),scrollbar(U),ic_launcher_foreground(D),ic_launcher_foreground_1(E)],id[nestedScroll(R),arrow(R),header(R),app_name(R),index(R),name(R),image(R),ribbonRecyclerView(R),progressbar(R),weight(R),height(R),weight_title(R),height_title(R),stats_title(R),hp(R),progress_hp(R),attack(R),defense(R),speed(R),exp(R),appBarLayout(R),main_toolbar(R),recyclerView(R),transformationLayout(R),cardView(R),toolbar(D),toolbar_title(D)],layout[activity_detail(U),activity_main(U),toolbar_home(U),item_pokemon(U)],mipmap[ic_launcher(U),ic_launcher_foreground(U)],string[app_name(U),weight(U),height(U),base_stats(U),hp(U),atk(U),def(U),spd(U),exp(U)],style[AppTheme(U),TextStyle(U),TextAppearance_MaterialComponents_Headline6(R),ShapeAppearanceOverlay_CardView(U),Theme_MaterialComponents_Light_NoActionBar(R),CircleImageStyle(D)];25^1,26^27,43^2^2a^23^49^3^29^53^54^1^55^2d^32^2f^31^4a^4^4b^4c^5^33^4d^6^35^36^7^4e^38^37^8^4f^39^9^50^3a^a^51^3b^b,44^2^45^25^3c^46,45^1^49^3^53,46^c^0^d^3^2e,47^e^48,52^56^1^f^10;;;"/>
+    </map>
+
+</incidents>

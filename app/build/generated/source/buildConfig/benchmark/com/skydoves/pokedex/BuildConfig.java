@@ -1,0 +1,12 @@
+/**
+ * Automatically generated file. DO NOT MODIFY
+ */
+package com.skydoves.pokedex;
+
+public final class BuildConfig {
+  public static final boolean DEBUG = Boolean.parseBoolean("true");
+  public static final String APPLICATION_ID = "com.skydoves.pokedex";
+  public static final String BUILD_TYPE = "benchmark";
+  public static final int VERSION_CODE = 10;
+  public static final String VERSION_NAME = "1.1.2";
+}
